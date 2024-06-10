@@ -4,7 +4,7 @@
 using namespace std;
 using namespace atcoder;
 
-typedef long long ll;
+using ll = long long;
 
 {% if mod %}
 const ll MOD = {{ mod }};
