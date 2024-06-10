@@ -1,13 +1,12 @@
 [codestyle]
 indent_type='space' # 'tab' or 'space'
 indent_width=4
-# template_file='~/my_template.cpp'
+template_file='/workdir/my_template.cpp'
 workspace_dir='/workdir/src/'
 lang='cpp' # Check README.md for the supported languages.
-# code_generator_file="~/custom_code_generator.py"
+code_generator_toml="/workdir/universal_code_generator.toml"
 [postprocess]
 exec_on_each_problem_dir='clang-format -i ./*.cpp'
-# exec_on_contest_dir='touch CMakeLists.txt'
 [compiler]
 compile_command='g++ main.cpp -o main -std=c++17'
 compile_only_when_diff_detected=true
