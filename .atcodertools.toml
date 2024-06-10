@@ -11,7 +11,7 @@ exec_on_each_problem_dir='clang-format -i ./*.cpp'
 compile_command='g++ main.cpp -o main -std=c++17'
 compile_only_when_diff_detected=true
 [tester]
-compile_before_testing=false
+compile_before_testing=true
 compile_only_when_diff_detected=true
 timeout_adjustment=1.2
 [etc]
