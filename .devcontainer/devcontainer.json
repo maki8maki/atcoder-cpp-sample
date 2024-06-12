@@ -17,6 +17,7 @@
 	},
 	"workspaceMount": "source=${localWorkspaceFolder},target=/workdir,type=bind",
 	"mounts": [
+		// "source=${localWorkspaceFolder}/cookie.txt,target=/root/.local/share/atcoder-tools/cookie.txt,type=bind",
 		"source=${localWorkspaceFolder}/.atcodertools.toml,target=/root/.atcodertools.toml,type=bind"
 	],
 	"workspaceFolder": "/workdir",
