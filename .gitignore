@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+main
+
+# AtCoder Cookie
+cookie.txt
